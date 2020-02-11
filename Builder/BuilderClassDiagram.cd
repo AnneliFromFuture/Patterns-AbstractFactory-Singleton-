@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Builder.WeddingCakeBuilder" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAAEABAAAAAAAAAAAAAIAABAAAAAAiAAAAAA=</HashCode>
+      <FileName>WeddingCakeBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Builder.CupcakeBuilder" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAAEABAAAAAAAAAAAAAIAABAAAAAAiAAAAAA=</HashCode>
+      <FileName>CupcakeBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Builder.Dessert">
+    <Position X="15" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Dessert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Director">
+    <Position X="5.5" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAIAAgAAAAAAAAAAAAIAAAACAA=</HashCode>
+      <FileName>Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Program">
+    <Position X="8.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.ApplePieBuilder" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAAEABAAAAAAAAAAAAAIAABAAAAAAiAAAAAA=</HashCode>
+      <FileName>ApplePieBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Builder.IDessertBuilder">
+    <Position X="10.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAAEAAAAAAAAAAAAAAAAAABAAAAAACAAAAAA=</HashCode>
+      <FileName>IDessertBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
