@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B81B60E-8C85-4AF6-8C19-2F78B853B45E}</ProjectGuid>
+    <ProjectGuid>{F7D6D423-51F3-4B7F-80F0-35F6ABC63419}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Composite</RootNamespace>
-    <AssemblyName>Composite</AssemblyName>
+    <RootNamespace>Proxy</RootNamespace>
+    <AssemblyName>Proxy</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Component.cs" />
-    <Compile Include="Components\Button.cs" />
+    <Compile Include="Actuator.cs" />
+    <Compile Include="Detector.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Components\TextBlock.cs" />
-    <Compile Include="Components\StackPanel.cs" />
+    <Compile Include="ProxyDetector.cs" />
+    <Compile Include="Sensor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram.puml" />
-    <None Include="CompositeClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

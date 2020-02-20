@@ -13,14 +13,8 @@ namespace Composite
 
         public abstract void Display(int depth);
 
-        public virtual void Add(Component component)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract void Add(Component component);
 
-        public virtual void Remove(Component component)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract void Remove(Component component);
     }
 }

@@ -1,0 +1,6 @@
+﻿@startuml
+Button ..|> Component
+TextBlock ..|> Component
+StackPanel ..|> Component
+
+@enduml

@@ -48,5 +48,10 @@
         {
             _dessert.Add("sprinkle decorations and oreo");
         }
+
+        public void NeedSugarPowder()
+        {
+            //throw new System.NotImplementedException();
+        }
     }
 }

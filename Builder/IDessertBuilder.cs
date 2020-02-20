@@ -11,5 +11,7 @@
         bool NeedCream();
         
         void SetDecorations();
+
+        void NeedSugarPowder();
     }
 }

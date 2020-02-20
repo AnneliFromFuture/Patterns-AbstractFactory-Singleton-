@@ -14,9 +14,6 @@ namespace Composite
             stackPanel.Add(button);
             stackPanel.Add(textBlock);
 
-            //stackPanel.Display(1);
-
-
             var stackPanel2 = new StackPanel("stackPanel2");
             var button2 = new Button("button2");
             var textBlock2 = new TextBlock("textBlock2");
@@ -28,8 +25,6 @@ namespace Composite
             stackPanel.Display(1);
 
             Console.ReadLine();
-
-            
         }
     }
 }

@@ -23,6 +23,7 @@
             _builder.PutFilling();
             _builder.NeedSpices();
             _builder.NeedCream();
+            _builder.NeedSugarPowder();
         }
 
         public void MakeWeddingCake()

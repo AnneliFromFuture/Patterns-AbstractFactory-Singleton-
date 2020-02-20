@@ -48,5 +48,11 @@
         {
             _dessert.Add("no decorations");
         }
+
+        public void NeedSugarPowder()
+        {
+            _dessert.Add("add sugar powder");
+        }
+
     }
 }

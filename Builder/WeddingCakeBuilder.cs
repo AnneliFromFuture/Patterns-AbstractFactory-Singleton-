@@ -48,5 +48,10 @@
         {
             _dessert.Add("flower decorations");
         }
+
+        public void NeedSugarPowder()
+        {
+           // _dessert.Add("flower decorations");
+        }
     }
 }
