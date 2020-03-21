@@ -5,8 +5,6 @@ namespace Observer
 {
     class StudyOffice : IObservable
     {
-        public int State { get; set; } = -0;
-
         private readonly List<IObserver> _observers = new List<IObserver>();
 
         public void AttachStudent(IObserver observer)
